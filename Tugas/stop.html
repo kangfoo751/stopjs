@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<script src="jquery-3.3.1.js"></script>
+	<script src="tugas.js"></script>
+	<title>Kumpulan Animasi jQuery</title>
+	<style type="text/css">
+		.container{
+			width: 1200px;
+			height: 650px;
+			background-color: #f1f1f1;
+			margin: auto;
+		}
+		.content{
+			width: 1000px;
+			height: 650px;
+			margin: auto;
+		}
+		.car{
+			padding-top: 20px;
+			position: absolute;
+
+		}
+		.car img{
+			width: 50px;
+			transform: rotate(90deg);
+		}
+
+
+
+		.button{
+			margin: auto;
+			width: 1000px;
+			display: flex;
+  			align-items: flex-end;
+		}
+		.left, .bottom, .top, .right, .maju, .mundur{
+			background-color: black;
+			color: white;
+			border: none;
+			padding: 10px 20px;
+			cursor: pointer;
+		}
+	</style>
+
+</head>
+<body>
+	<div class="container">
+		<div class="content">
+		<div class="car"><img src="car.png"></div>
+		</div>
+
+
+
+
+		<div class="button">
+			<button class="mundur">mundur</button>
+			<button class="left">Left</button>
+			<button class="bottom">Bottom</button>
+			<button class="top">Top</button>
+			<button class="right">Right</button>
+			<button class="maju">Maju</button>
+		</div>
+	</div>
+
+</body>
+</html>
